@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="enviar.php" method="post" name="form">
+
+        <label for="nome">Nome</label> <!Funciona como uma espécie de etiqueta. Por exemplo, label é uma etiqueta pra nome>
+        <input id="nome" name="nome" type="text" required>
+
+        <label for="email">E-mail</label> 
+        <input id="email" name="email" type="text" required>
+
+        <label for="mensagem">Mensagem</label> 
+        <textarea id="mensagem" name="mensagem" required></textarea> <!Muito usado pra textos maiores>
+
+        <button id="enviar" name="enviar" type="submit">Solicitar Orçamento</button>
+
+    </form>
+    
+</body>
+</html>
